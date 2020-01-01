@@ -1,0 +1,8 @@
+.accordion-header {
+  padding: 30px;
+  /* background-color: rgb(235, 235, 235);
+  border: solid 1px rgb(182, 180, 180); */
+  background-color: rgb(188, 224, 253);
+  border: solid 1px rgb(52, 147, 236);
+  border-radius: 10px;
+}
