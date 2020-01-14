@@ -1,0 +1,18 @@
+.accordion-body {
+  height: 0px;
+  padding: 8%;
+  transition: height 4s;
+  &.active {
+    background-color: #c1f3fa;
+    border: solid 1px #15aabf;
+    height: auto;
+    .content{
+      opacity: 1;
+    }
+  }
+  .content{
+    text-align: justify;
+    opacity: 0;
+    transition: all 1s;
+  }
+}

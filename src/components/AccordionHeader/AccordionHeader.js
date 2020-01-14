@@ -1,14 +1,14 @@
 import React from 'react';
-import './AccordionHeader.css'
+import './AccordionHeader.scss'
 
 class AccordionHeader extends React.Component {
-
   render() {
-    console.log(this.props)
     return (
-        <div className={`accordion-header ${this.props.display?'accordion-header-active':null}`}>
+      <div className={`accordion-header ${this.props.display ? 'accordion-header-active' : null}`}>
+        <div className="content">
           {this.props.children}
         </div>
+      </div>
     )
   }
 }
