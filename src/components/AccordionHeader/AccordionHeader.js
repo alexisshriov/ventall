@@ -14,9 +14,9 @@ class AccordionHeader extends React.Component {
   render() {
     return (
       <div onClick = {this.handleClick} className={`accordion-header ${this.props.display ? 'accordion-header-active' : null}`}>
-        <div className="content">
+        {/* <div className="content"> */}
           {this.props.children}
-        </div>
+        {/* </div> */}
       </div>
     )
   }

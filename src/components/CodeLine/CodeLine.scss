@@ -1,0 +1,31 @@
+.code-line { 
+  display: flex;
+  justify-content: space-between;
+  padding: 7px 20px;
+  font-size: 25px;
+  border-radius: 1px;
+  color: rgb(95, 95, 95);
+  font-family: monaco;
+  font-weight: bold;
+
+  &.link{
+    background-color: rgb(243, 242, 242);
+    &:hover{
+      background-color:rgb(214, 214, 214);
+    }
+  }
+  
+  .info-icon{
+    color:white; 
+    font-family: georgia;
+    text-align: center;
+    background-color:#15aabf; 
+    border-radius:5px; 
+    padding: 2px 12px;
+    height: 30px;
+    box-shadow:2px 2px 4px #000000;
+    &:hover{
+      transform: scale(1.2);
+    }
+  }
+}
