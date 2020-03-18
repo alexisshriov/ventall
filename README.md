@@ -1,5 +1,4 @@
-## Ventall Project
-This is a personal project which consists of a learning platform aimed at teaching the art of programing to people starting at different levels including people who have no notion about programing what so ever. it differs from other courses out there in that the courses of this platform are self contained,that is to say every term used is explained and you can always expand the information provided without going to any other website or course, this is especially helpful to people who are just getting started in the programing world and may not know or understand concepts that more advanced programers do, I make a lot of emphasis in explaning with a great level of detail and providing many examples for every concept.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
