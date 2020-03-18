@@ -5,10 +5,4 @@
   background-color: rgb(188, 224, 253);
   border: solid 1px rgb(52, 147, 236);
   border-radius: 10px;
-  opacity: 0;
-  transition: all .5s; 
-}
-
-.accordion-header-active {
-  opacity:1
 }
