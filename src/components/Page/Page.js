@@ -78,6 +78,7 @@ const Page = () => {
             <CodeLine onLineSelect={onLineSelect} index={3} link>{'edad = 36 + 5;'}</CodeLine>
             <CodeLine onLineSelect={onLineSelect} index={4} link>{'console.log(edad);'}</CodeLine>
             <CodeLine onLineSelect={onLineSelect} index={4} link>{'edad = 18;'}</CodeLine>
+            <CodeLine onLineSelect={onLineSelect} index={4} link>{'test line;'}</CodeLine>
 
             <br />
           </div>
