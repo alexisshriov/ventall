@@ -31,13 +31,13 @@ const Page = () => {
           <div className="line-info">
             The const keyword creates a <span className="highlighted" onClick={expandHyperContent}>read-only</span> reference to a value.
           </div>
-          /* <div className="line-info">
+           <div className="line-info">
             A <b onClick={this.expandHyperContent} style={{ color: '#15aabf' }}>read-only</b> value is a value that once asigned cannot be changed later on.
             {'If you try to re-asign it it will throw erros:'}<br /><br />
             <b style={{ color: '#15aabf' }}>Example:</b> <br />
             {'const a = 0;'}<br />
             {'a = 1;'}<span style={{ color: 'brown' }}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//  this will throw an error.</span>
-            </div>     */
+            </div>    
         )
       case 2:
         return (
