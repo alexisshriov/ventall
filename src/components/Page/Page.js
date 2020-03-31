@@ -32,12 +32,12 @@ const Page = () => {
             The const keyword creates a <span className="highlighted" onClick={expandHyperContent}>read-only</span> reference to a value.
           </div>
            <div className="line-info">
-            A <b onClick={this.expandHyperContent} style={{ color: '#15aabf' }}>read-only</b> value is a value that once asigned cannot be changed later on.
-            {'If you try to re-asign it it will throw erros:'}<br /><br />
-            <b style={{ color: '#15aabf' }}>Example:</b> <br />
-            {'const a = 0;'}<br />
-            {'a = 1;'}<span style={{ color: 'brown' }}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//  this will throw an error.</span>
-            </div>    
+           A <b onClick={this.expandHyperContent} style={{ color: '#15aabf' }}>read-only</b> value is a value that once asigned cannot be changed later on.
+           {'If you try to re-asign it it will throw erros:'}<br /><br />
+           <b style={{ color: '#15aabf' }}>Example:</b> <br />
+           {'const a = 0;'}<br />
+           {'a = 1;'}<span style={{ color: 'brown' }}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//  this will throw an error.</span>
+           </div>    
         )
       case 2:
         return (
@@ -79,7 +79,6 @@ const Page = () => {
             <CodeLine onLineSelect={onLineSelect} index={3} link>{'for (let i = 0; i< 100; i++)'}</CodeLine>
             <CodeLine onLineSelect={onLineSelect} index={4} link>{'console.log(edad);'}</CodeLine>
             <CodeLine onLineSelect={onLineSelect} index={4} link>{'edad = 18;'}</CodeLine>
-            <CodeLine onLineSelect={onLineSelect} index={4} link>{'test line;'}</CodeLine>
 
             <br />
           </div>
