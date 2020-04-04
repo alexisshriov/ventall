@@ -76,7 +76,6 @@ const Page = () => {
             <CodeLine onLineSelect={onLineSelect} index={1} link>{'let name = "Jose";'}</CodeLine>
             <CodeLine onLineSelect={onLineSelect} index={2} link>{'const edad = 36;'}</CodeLine>
             <CodeLine onLineSelect={onLineSelect} index={3} link>{'edad = 36 + 5;'}</CodeLine>
-            <CodeLine onLineSelect={onLineSelect} index={3} link>{'for (let i = 0; i< 100; i++)'}</CodeLine>
 
             <br />
           </div>
