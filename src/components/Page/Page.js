@@ -70,7 +70,7 @@ const Page = () => {
       <AccordionBody display={showVariablesContent} >
         <div class="grid-container">
           <div class="grid-item general-info detail-container">
-            You can think of a variable as a container in memory where you can store a value.
+            You can think of a variable as a container in memory where you can store a value and retrieve it later on.
             </div>
           <div class="grid-item">
             <CodeLine onLineSelect={onLineSelect} index={1} link>{'let name = "Jose";'}</CodeLine>
