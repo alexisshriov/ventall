@@ -78,6 +78,7 @@ const Page = () => {
             <CodeLine onLineSelect={onLineSelect} index={3} link>{'edad = 36 + 5;'}</CodeLine>
             <CodeLine onLineSelect={onLineSelect} index={3} link>{'edad = edad - 11;'}</CodeLine>
             <CodeLine onLineSelect={onLineSelect} index={3} link>{'edad = edad % 11;'}</CodeLine>
+            <CodeLine onLineSelect={onLineSelect} index={3} link>{'edad = edad / 11;'}</CodeLine>
             <br />
           </div>
           <div class="grid-item detail-container">
